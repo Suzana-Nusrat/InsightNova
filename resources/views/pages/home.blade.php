@@ -119,7 +119,7 @@
             <div class="col-md-4">
                 <div class="glass-card">
                     <div class="icon-box"><i class="bi bi-stars"></i></div>
-                    <h4>InsightNova AI</h4>
+                    <h4>InsightNova</h4>
                     <p>
                         A Laravel-based AI startup website with service showcases, responsive UI,
                         and database-driven contact message storage.
