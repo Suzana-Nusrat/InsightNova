@@ -51,7 +51,7 @@
             <div class="col-md-4">
                 <div class="glass-card">
                     <div class="icon-box"><i class="bi bi-lightning-charge"></i></div>
-                    <h4>Automation</h4>
+                    <h4>Business Automation</h4>
                     <p>Workflow automation systems that reduce manual effort and improve productivity.</p>
                 </div>
             </div>
@@ -82,13 +82,166 @@
     </div>
 </section>
 
+<section class="section-padding bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">
+                Selected digital solutions built with practical technology and business-focused design.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="glass-card">
+                    <div class="icon-box"><i class="bi bi-file-earmark-person"></i></div>
+                    <h4>Smart CV Analyzer</h4>
+                    <p>
+                        AI-powered resume analysis system with CV parsing, job description matching,
+                        skill gap detection, and ATS-style recommendations.
+                    </p>
+                    <span class="badge bg-primary-subtle text-primary">AI / NLP</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="glass-card">
+                    <div class="icon-box"><i class="bi bi-heart-pulse"></i></div>
+                    <h4>CareConnect</h4>
+                    <p>
+                        A caregiver service portal that helps users find caregivers, explore services,
+                        request bookings, and manage basic care coordination.
+                    </p>
+                    <span class="badge bg-primary-subtle text-primary">Web Platform</span>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="glass-card">
+                    <div class="icon-box"><i class="bi bi-stars"></i></div>
+                    <h4>InsightNova AI</h4>
+                    <p>
+                        A Laravel-based AI startup website with service showcases, responsive UI,
+                        and database-driven contact message storage.
+                    </p>
+                    <span class="badge bg-primary-subtle text-primary">Laravel / MySQL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Meet Our Team</h2>
+            <p class="section-subtitle">
+                A multidisciplinary team focused on AI engineering, product strategy, and scalable software.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="glass-card text-center">
+                    <img src="https://i.pravatar.cc/200?img=32"
+                         class="rounded-circle mb-3"
+                         width="120"
+                         height="120"
+                         alt="AI Engineer">
+                    <h4>Alex Morgan</h4>
+                    <p class="text-muted mb-0">AI Engineer</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="glass-card text-center">
+                    <img src="https://i.pravatar.cc/200?img=15"
+                         class="rounded-circle mb-3"
+                         width="120"
+                         height="120"
+                         alt="ML Specialist">
+                    <h4>Sarah Johnson</h4>
+                    <p class="text-muted mb-0">Machine Learning Specialist</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="glass-card text-center">
+                    <img src="https://i.pravatar.cc/200?img=12"
+                         class="rounded-circle mb-3"
+                         width="120"
+                         height="120"
+                         alt="Business Consultant">
+                    <h4>Michael Chen</h4>
+                    <p class="text-muted mb-0">Business Consultant</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-padding bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">
+                Quick answers about our AI services and project workflow.
+            </p>
+        </div>
+
+        <div class="accordion mx-auto" id="faqAccordion" style="max-width: 850px;">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqOneHeading">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne">
+                        What services does InsightNova provide?
+                    </button>
+                </h2>
+                <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        InsightNova provides AI chatbot development, machine learning solutions,
+                        predictive analytics, business automation, and AI-powered web platforms.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqTwoHeading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo">
+                        Can you build custom AI solutions?
+                    </button>
+                </h2>
+                <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes. We design and develop custom AI solutions based on business goals,
+                        available data, required features, and deployment needs.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="faqThreeHeading">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree">
+                        How can a business start a project?
+                    </button>
+                </h2>
+                <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        A business can submit the contact form with project details. The team reviews
+                        the message and responds with the next steps, scope, and suggested solution plan.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section-padding dark-section">
     <div class="container text-center">
-        <h2 class="fw-bold">Ready to Build Smarter?</h2>
+        <h2 class="fw-bold display-6">Ready to Transform Your Business?</h2>
         <p class="mt-3 text-light">
             Let InsightNova turn your idea into a scalable AI-powered solution.
         </p>
-        <a href="/contact" class="btn-primary-custom mt-3">Contact Us</a>
+        <a href="/contact" class="btn-primary-custom mt-3">Get Started</a>
     </div>
 </section>
 
