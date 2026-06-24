@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InsightNova AI</title>
+    <title>InsightNova</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
@@ -36,13 +36,83 @@
 @yield('content')
 
 <footer class="footer-section">
-    <div class="container text-center">
-        <h4 class="fw-bold">InsightNova AI</h4>
-        <p class="text-muted mb-2">Transforming ideas into intelligent solutions.</p>
-        <p class="mb-0">© 2026 InsightNova AI. All Rights Reserved.</p>
-    </div>
-</footer>
 
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <h3 class="fw-bold gradient-text">
+                    InsightNova
+                </h3>
+
+                <p class="mt-3 text-light">
+                    Transforming ideas into intelligent solutions through
+                    AI, machine learning, automation, and digital innovation.
+                </p>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <h5 class="text-white">Quick Links</h5>
+
+                <ul class="list-unstyled mt-3">
+                    <li><a href="/" class="footer-link">Home</a></li>
+                    <li><a href="/services" class="footer-link">Services</a></li>
+                    <li><a href="/about" class="footer-link">About</a></li>
+                    <li><a href="/contact" class="footer-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <h5 class="text-white">Connect With Us</h5>
+
+                <div class="social-icons mt-3">
+
+                    <a href="https://linkedin.com"
+                       target="_blank"
+                       class="social-btn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com"
+                       target="_blank"
+                       class="social-btn">
+                        <i class="bi bi-github"></i>
+                    </a>
+
+                    <a href="https://facebook.com"
+                       target="_blank"
+                       class="social-btn">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="https://twitter.com"
+                       target="_blank"
+                       class="social-btn">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+
+                    <a href="mailto:hello@insightnova.ai"
+                       class="social-btn">
+                        <i class="bi bi-envelope-fill"></i>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="text-center">
+            <p class="mb-0 text-light">
+                © 2026 InsightNova. All Rights Reserved.
+            </p>
+        </div>
+
+    </div>
+
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 
