@@ -14,24 +14,63 @@
 
 <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
     <div class="container">
-        <a class="navbar-brand fw-bold" href="/">
+
+        <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+            <div style="
+                width:42px;
+                height:42px;
+                border-radius:12px;
+                background:linear-gradient(135deg,#2563eb,#8b5cf6);
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                margin-right:12px;
+                color:white;
+                font-size:15px;
+                font-weight:800;
+                letter-spacing:.5px;
+                box-shadow:0 10px 25px rgba(37,99,235,.35);">
+                IN
+            </div>
+
             <span class="brand-gradient">InsightNova</span>
         </a>
 
-        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <button class="navbar-toggler bg-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+                aria-controls="menu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="menu">
             <ul class="navbar-nav ms-auto align-items-lg-center">
-                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="/services" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="/contact" class="nav-link btn-nav">Contact Us</a></li>
+
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/services" class="nav-link">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/about" class="nav-link">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="/contact" class="nav-link btn-nav">Contact Us</a>
+                </li>
+
             </ul>
         </div>
+
     </div>
 </nav>
+    
 
 @yield('content')
 
