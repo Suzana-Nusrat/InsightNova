@@ -124,7 +124,7 @@
                         A Laravel-based AI startup website with service showcases, responsive UI,
                         and database-driven contact message storage.
                     </p>
-                    <span class="badge bg-primary-subtle text-primary">Laravel / MySQL</span>
+                    <span class="badge bg-primary-subtle text-primary">Laravel / Php / MySQL</span>
                 </div>
             </div>
         </div>
